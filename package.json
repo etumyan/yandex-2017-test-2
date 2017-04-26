@@ -1,0 +1,17 @@
+{
+  "name": "yandex-2017-test-2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "moment": "^2.18.1",
+    "pg": "^6.1.0",
+    "sequelize": "^3.23.6",
+    "sqlite3": "^3.0.8"
+  }
+}

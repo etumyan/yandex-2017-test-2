@@ -1,0 +1,23 @@
+{
+  "development": {
+    "database": {
+      "dialect": "sqlite",
+      "storage": "./db/development.sqlite"
+    }
+  },
+  "test": {
+    "database": {
+      "dialect": "sqlite",
+      "storage": ":memory:"
+    }
+  },
+  "production": {
+    "database": {
+      "name": "database_production",
+      "username": "root",
+      "password": null,
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    }
+  }
+}

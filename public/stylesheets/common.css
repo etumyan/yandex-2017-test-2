@@ -1,0 +1,119 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,
+.pure-g [class*="pure-u"] {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  color: #4a4a4a;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+a {
+  color: #0078e7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e7005c;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+  font-weight: 100;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+textarea {
+  width: 100%;
+}
+
+textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+.pure-g,
+.pure-g [class*=pure-u] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.cell-fit {
+  width: 1px;
+  white-space: nowrap;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.panel {
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 2px;
+}
+
+.alert {
+  padding: 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #eaeaea;
+  border-radius: 2px;
+}
+
+.alert_type_danger {
+  background-color: #f1dbdb;
+  border-color: #f1b9b9;
+}
+
+.figured-background {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8"><mask fill="white"><rect width="8" height="8"/></mask><g mask="url(#mask-2)" style="fill:#FFF;opacity:0.5"><g transform="translate(4.149991 4.570236)rotate(-315)"><rect x="-7" y="-23" width="2.26962627" height="45.3925255"/><rect x="-1.32593431" y="-23" width="2.26962627" height="45.3925255"/><rect x="4.3481314" y="-23" width="2.26962627" height="45.3925255"/></g></g></svg>');
+  background-size: 32px;
+}
+
+.header {
+  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+  background-color: #0078e7;
+}
+
+.header .pure-menu-link {
+  color: #fff;
+}
+
+.header .pure-menu-link:hover,
+.header .pure-menu-selected {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .25);
+}
+
+.header .pure-menu-heading {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.header .pure-menu-heading:hover {
+  background-color: transparent;
+}
